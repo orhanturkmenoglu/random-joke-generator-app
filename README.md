@@ -4,14 +4,32 @@ JavaScript öğrenim sürecimde geliştirdiğim bu küçük ve eğlenceli proje 
 
 Espri API'sini kullanarak, seçtiğiniz dilde (örneğin İngilizce, Almanca) espriler getirip türüne uygun emojilerle süslüyoruz. 🎭💻🌑😂
 
-💡 Bu projede neler var?
+🛠️ Kullanılan Teknolojiler:
 
-🔹 Fetch API kullanarak dışarıdan veri çekme işlemi
+✅ JavaScript (ES6+)
 
-🔹 Kullanıcı dil seçimine göre espri özelleştirme
+✅ Fetch API (Veri çekme işlemi için)
 
-🔹 Espri türüne uygun emoji güncellemesi
+✅ HTML5 & CSS3 (Kullanıcı arayüzü ve stil)
 
-🔹 Clean code prensiplerine uygun yapı
+✅ Emojiler (Dinamik emoji güncelleme)
 
-🔹 JavaScript DOM manipülasyonu ve hata yönetimi
+✅ API (Espri verisi sağlamak için)
+
+
+💡 Proje Nasıl Çalışıyor?
+
+🔹 Fetch API ile espri verisi, dış bir kaynaktan çekiliyor.
+
+🔹 Kullanıcı dil seçiminden sonra, API'den seçilen dilde bir espri alınıyor.
+
+🔹 Esprinin türüne göre uygun bir emoji (programlama, çeşitli espriler, karanlık espriler gibi) belirleniyor ve ekranda görüntüleniyor.
+
+🔹 Espri türü, esprinin API'den gelen kategorisiyle eşleşiyor ve buna göre emoji güncelleniyor.
+
+🔹 Hata durumunda kullanıcıya bilgilendirici bir mesaj ve uyarı simgesi gösteriliyor.
+
+
+💡 Clean Code Yaklaşımı:
+
+Kodun okunabilirliği ve sürdürülebilirliği için clean code prensiplerine uygun olarak yazıldı. Her fonksiyon tek bir işi yapacak şekilde tasarlandı ve her adımdaki hata yönetimiyle düzgün bir kullanıcı deneyimi sağlandı.
